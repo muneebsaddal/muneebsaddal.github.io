@@ -9,8 +9,13 @@ export const siteConfig = {
     github: "https://github.com/muneebsaddal",
   },
   aboutMe:
-    "I’m a Data Analyst and AI/ML enthusiast with a background in Computer Science and hands-on experience turning raw data into clear, actionable insights. My expertise lies in data cleaning, visualization, and business intelligence — transforming datasets into stories that drive decisions. I work confidently across Power BI, Python, SQL, and Excel, building dashboards and analytics solutions that reveal patterns, optimize performance, and simplify complexity. With a foundation in software development and a passion for analytical problem-solving, I bridge the gap between technical precision and business understanding — whether it’s analyzing retail sales, flight data, or customer behavior.",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m a Data Analyst and AI/ML enthusiast with a Computer Science background and hands-on experience turning raw data into actionable insights. Skilled in data cleaning, visualization, and business intelligence, I use tools like Power BI, Python, SQL, and Excel to build dashboards that uncover trends and drive decisions. With roots in software development and a passion for problem-solving, I connect technical precision with business understanding — whether analyzing retail sales, flight data, or customer behavior.",
+  skills: ["Power BI",
+  "Python",
+  "SQL",
+  "Excel",
+  "Machine Learning",
+  "API Integration"],
   projects: [
     {
       name: "Retail Sales Data Analytics",
