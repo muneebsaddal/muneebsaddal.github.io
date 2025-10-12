@@ -9,29 +9,29 @@ export const siteConfig = {
     github: "https://github.com/muneebsaddal",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "I’m a Data Analyst and AI/ML enthusiast with a background in Computer Science and hands-on experience turning raw data into clear, actionable insights. My expertise lies in data cleaning, visualization, and business intelligence — transforming datasets into stories that drive decisions. I work confidently across Power BI, Python, SQL, and Excel, building dashboards and analytics solutions that reveal patterns, optimize performance, and simplify complexity. With a foundation in software development and a passion for analytical problem-solving, I bridge the gap between technical precision and business understanding — whether it’s analyzing retail sales, flight data, or customer behavior.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Retail Sales Data Analytics",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "End-to-end retail analytics project analyzing sales performance, discount impact, and customer satisfaction using Power BI and SQL. Includes dynamic dashboards and actionable business insights.",
+      link: "https://github.com/muneebsaddal/retail-sales-data-analytics",
+      skills: ["Power BI", "Data Visualization", "Business Intelligence"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "OpenSky Flight Data Analysis",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Comprehensive analysis of live flight data from the OpenSky API using Python and Pandas. Explores flight patterns, altitude trends, and delay insights with advanced data visualization.",
+      link: "https://github.com/muneebsaddal/opensky-flight-data-analysis",
+      skills: ["Python", "Pandas", "Matplotlib", "API Integration"],
     },
     {
-      name: "ExtensionKit",
+      name: "Sample Sales Data Analysis",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Data cleaning, transformation, and visualization project focused on sales and profitability metrics. Includes interactive Power BI reports highlighting trends, KPIs, and revenue insights.",
+      link: "https://github.com/muneebsaddal/Sample-Sales-Data-Analysis",
+      skills: ["Power BI", "Excel", "SQL", "Python", "Data Cleaning"],
     },
   ],
   experience: [
