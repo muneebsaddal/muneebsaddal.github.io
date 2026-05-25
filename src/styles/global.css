@@ -1,5 +1,72 @@
 @import "tailwindcss";
 
+:root {
+  --black: #000;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--black);
+}
+
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+  min-height: 100vh;
+  background: var(--black);
+  color: var(--white);
+  font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0;
+  font-size: 14px;
+}
+
+::selection {
+  background: var(--white);
+  color: var(--black);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.display-type {
+  font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.section-shell {
+  width: min(100%, 1040px);
+  margin: 0 auto;
+  padding: 34px 18px;
+}
+
+.card {
+  border: 1px solid rgb(255 255 255 / 0.22);
+  background: var(--black);
+}
+
+.muted {
+  color: rgb(255 255 255 / 0.66);
+}
+
+.soft {
+  color: rgb(255 255 255 / 0.45);
+}
+
+.chip {
+  border: 1px solid rgb(255 255 255 / 0.2);
+  padding: 0.25rem 0.5rem;
+  color: rgb(255 255 255 / 0.68);
+  font-size: 0.72rem;
+  line-height: 1rem;
+}
+
+@media (min-width: 768px) {
+  .section-shell {
+    padding: 42px 28px;
+  }
 }

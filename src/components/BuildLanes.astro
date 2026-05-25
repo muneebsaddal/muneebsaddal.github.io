@@ -1,0 +1,41 @@
+---
+import { siteConfig } from "../config";
+---
+
+<section id="systems" class="section-shell border-b border-white/20">
+  <div class="mb-4">
+    <h2 class="text-base font-semibold text-white">systems</h2>
+  </div>
+
+  <div class="grid gap-4 md:grid-cols-2">
+    {
+      siteConfig.buildLanes.map((lane) => (
+        <article class="card p-5">
+          <h3 class="text-base font-semibold text-white">
+            {lane.title}
+          </h3>
+          <p class="mt-3 text-sm leading-6 text-white/65">
+            {lane.description}
+          </p>
+
+          <ul class="mt-5 space-y-2">
+            {lane.proofPoints.map((point) => (
+              <li class="flex gap-2 text-xs leading-6 text-white/60">
+                <span class="text-white/45">-</span>
+                <span>{point}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div class="mt-5 flex flex-wrap gap-2">
+            {lane.stack.map((item) => (
+              <span class="chip">
+                {item}
+              </span>
+            ))}
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</section>

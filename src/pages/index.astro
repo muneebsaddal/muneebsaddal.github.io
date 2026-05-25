@@ -1,8 +1,9 @@
 ---
 import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
-import About from "../components/About.astro";
-import Projects from "../components/Projects.astro";
+import BuildLanes from "../components/BuildLanes.astro";
+import FeaturedProjects from "../components/FeaturedProjects.astro";
+import ProjectArchive from "../components/ProjectArchive.astro";
 import Experience from "../components/Experience.astro";
 import Education from "../components/Education.astro";
 import Footer from "../components/Footer.astro";
@@ -20,20 +21,21 @@ import "../styles/global.css";
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>{siteConfig.name} - {siteConfig.title}</title>
+    <title>{siteConfig.name} - {siteConfig.role}</title>
   </head>
   <body>
     <Header />
-    <section>
+    <main>
       <Hero />
-      <About />
-      <Projects />
+      <BuildLanes />
+      <FeaturedProjects />
+      <ProjectArchive />
       <Experience />
       <Education />
-    </section>
+    </main>
     <Footer />
   </body>
 </html>
